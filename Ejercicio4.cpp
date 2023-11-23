@@ -8,14 +8,14 @@ int main() {
     string nueva_subcadena = "developer";
 
     size_t posicion = frase.find(subcadena);
-    if(posicion != string::npos) {
+    if(posicion != string::npos) {//npos es el valor que se devuelve si no se encuentra la subcadena
         cout << "La subcadena se encontro en el indice: " << posicion << endl;
-        frase.replace(posicion, subcadena.length(), nueva_subcadena);
+        frase.replace(posicion, subcadena.length(), nueva_subcadena);//reemplaza la subcadena por la nueva subcadena
     } else {
-        cout << "La subcadena no se encontro." << endl;
+        cout << "La subcadena no se encontro." << endl;//si no se encuentra la subcadena
     }
 
-    cout << "La cadena resultante es: " << frase << endl;
+    cout << "La cadena resultante es: " << frase << endl;//imprime la cadena resultante
 
     return 0;
 }
