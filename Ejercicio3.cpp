@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    string frase = "If you want to be a good programmer, you have to be strict";
+    string frase = "If you want to be a great programmer, you have to be strict";
     string subcadena = "programmer";
     string nueva_subcadena = "developer";
 
